@@ -74,7 +74,9 @@ ai-ocr-course/
 👩‍🏫 Instructor / Maintainer
 
 This course is maintained by May (Xiaoting Zhou),
+
 AI researcher, document intelligence developer, and educator.
+
 	•	💌 Contact: may200852@gmail.com
 	•	📬 Issues or suggestions? Open a GitHub Issue
 

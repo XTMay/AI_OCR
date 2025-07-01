@@ -19,13 +19,11 @@ By the end of this course, you will be able to:
 ---
 
 ## 📦 Models Covered
-``
 | Model        | Type                         | Strengths                                     | Usage |
 |--------------|------------------------------|-----------------------------------------------|-------|
 | 🥇 PaddleOCR | Traditional OCR + Structure  | Fast, accurate, great for Chinese/English OCR | Text + layout extraction |
 | 🥈 LayoutLMv3 | Multimodal Transformer       | Strong in field-level NER, form understanding | Requires OCR output as input |
 | 🥉 Donut     | OCR-free Image2Text Transformer | Direct image → JSON, template-robust        | Needs fine-tuning for custom formats |
-``
 ---
 
 ## 🖼️ Supported Input Types
@@ -39,6 +37,7 @@ By the end of this course, you will be able to:
 
 ## 📂 Project Structure
 
+``
 ai-ocr-course/
 ├── paddleocr_demo/          # PaddleOCR-based OCR pipeline
 ├── layoutlmv3_ner/          # LayoutLMv3 for field/entity extraction
@@ -46,7 +45,7 @@ ai-ocr-course/
 ├── utils/                   # PDF/image processing utilities
 ├── data/                    # Sample documents and annotations
 └── README.md
-
+``
 ---
 
 ## 🚀 Quick Start

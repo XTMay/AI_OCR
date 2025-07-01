@@ -47,51 +47,6 @@ ai-ocr-course/
 └── README.md
 ```
 ---
-
-## 🚀 Quick Start
-
-### 1. Clone this repo
-
-```bash
-git clone https://github.com/your-org/ai-ocr-course.git
-cd ai-ocr-course
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-Or install each submodule dependencies individually in their respective folders.
-
-3. Try a demo
-
-PaddleOCR
-
-cd paddleocr_demo
-python run_ocr.py --image sample_invoice.jpg
-
-LayoutLMv3
-
-cd layoutlmv3_ner
-python train.py         # Train with labeled data
-python predict.py       # Inference on new document
-
-Donut
-
-cd donut_inference
-python infer.py --image sample_invoice.jpg
-
-
-⸻
-
-📦 Sample Dataset
-
-We include small samples of:
-	•	Invoices in English and Chinese
-	•	Form-like PDFs
-	•	OCR annotations in words, bboxes, and labels format
-
-You can annotate your own documents using Label Studio or Doccano.
-
 ⸻
 
 📊 Model Comparison Table

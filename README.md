@@ -1,8 +1,3 @@
-当然！以下是适合直接复制粘贴到 GitHub 仓库中作为 README.md 的完整 Markdown 文本，支持多模型、多格式输入的 AI OCR 教学项目：
-
-⸻
-
-
 # 🧠 AI OCR Course: Hands-On Document Intelligence with PaddleOCR, LayoutLMv3, and Donut
 
 Welcome to this open, hands-on OCR and Document Understanding course!  

@@ -19,13 +19,13 @@ By the end of this course, you will be able to:
 ---
 
 ## 📦 Models Covered
-
+``
 | Model        | Type                         | Strengths                                     | Usage |
 |--------------|------------------------------|-----------------------------------------------|-------|
 | 🥇 PaddleOCR | Traditional OCR + Structure  | Fast, accurate, great for Chinese/English OCR | Text + layout extraction |
 | 🥈 LayoutLMv3 | Multimodal Transformer       | Strong in field-level NER, form understanding | Requires OCR output as input |
 | 🥉 Donut     | OCR-free Image2Text Transformer | Direct image → JSON, template-robust        | Needs fine-tuning for custom formats |
-
+``
 ---
 
 ## 🖼️ Supported Input Types

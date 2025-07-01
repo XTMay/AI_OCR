@@ -47,7 +47,6 @@ ai-ocr-course/
 └── README.md
 ```
 ---
-⸻
 
 📊 Model Comparison Table
 
@@ -63,14 +62,14 @@ ai-ocr-course/
 | **易用性**         | 极高              | 中等                     | 中等偏高               |
 
 
-⸻
+---
 
 📖 References
 	•	PaddleOCR GitHub
 	•	LayoutLMv3 Paper (Microsoft)
 	•	Donut Paper (NAVER)
 	•	HuggingFace Transformers
-⸻
+---
 
 👩‍🏫 Instructor / Maintainer
 
@@ -79,7 +78,7 @@ AI researcher, document intelligence developer, and educator.
 	•	💌 Contact: may200852@gmail.com
 	•	📬 Issues or suggestions? Open a GitHub Issue
 
-⸻
+---
 
 🔖 License
 

@@ -73,7 +73,7 @@ ai-ocr-course/
 
 👩‍🏫 Instructor / Maintainer
 
-This course is maintained by May (Xiaoting Zhou),
+This course is maintained by May,
 
 AI researcher, document intelligence developer, and educator.
 

@@ -1,0 +1,38 @@
+[
+  {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "InvoiceNo": "Y 309824263008"
+    }
+  },
+  {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "InvoiceDate": "",
+    }
+  }
+    {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "Currency": "USD",
+    }
+  }
+  {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "Amount with Tax": "300",
+    }
+  }
+  {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "Tax": "0",
+    } 
+  }
+    }
+  {
+    "image": "data/converted_images/invoice_page_1.jpg",
+    "ground_truth": {
+      "Tax": "0",
+    } 
+]

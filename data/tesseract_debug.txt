@@ -1,0 +1,23 @@
+测试股份有限公司
+©                  Test Co.,Ltd.
+Invoice               HAR: 2025 年6月30 日
+Vendor code: XX840-SXX
+Bill To: test1 Corporation               Ship To: test? VIETNAM CO.,LTD.
+Sold To:test1 Corporation
+Invoice NO: Y 309824263008
+USD
+PCS     USD                           NOTE NO
+1          请款 “| 21423-             100 “| 3.00000         300.00 | 3138872
+a err ee
+Ps
+a ee
+a ee
+a ee
+ol al
+PAYMENTTERM: 150DAYS
+BANK INFORMATION:
+Name of beneficiary: test2 ELECTRONIC CO.,LTD
+Name of beneficiary bank: BANK OF test BRANCH                    ©
+Address of beneficiary bank: test road
+Bank account number: 000099998888
+Contact person: MISS test

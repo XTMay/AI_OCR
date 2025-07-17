@@ -46,7 +46,7 @@ class ExperienceReplayBuffer:
         return len(self.buffer)
 
 class PerformanceMonitor:
-    """性能监控器"""
+    """性能监控器 script"""
     def __init__(self):
         self.metrics_history = defaultdict(list)
         self.statistics_history = []

@@ -1,0 +1,16 @@
+{
+  "InvoiceNo": "Y309824263008",
+  "InvoiceDate": "2025-06-30",
+  "Currency": "USD",
+  "Items": [
+    {
+      "Description": "請款",
+      "Qty": 1,
+      "UnitPrice": 300.0,
+      "Amount": 300.0
+    }
+  ],
+  "TotalAmount": 300.0,
+  "Tax": 0.0,
+  "PaymentTerm": "NET30"
+}

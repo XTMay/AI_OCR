@@ -1,0 +1,31 @@
+{
+  "task_name": "invoice_information_extraction",
+  "image_path": "images/sample001.jpg",
+  "ground_truth": {
+    "InvoiceNo": "Y309824263008",
+    "InvoiceDate": "2025-06-30",
+    "Currency": "USD",
+    "Items": [
+      {
+        "Description": "請款",
+        "P.O.NO": "21423-065150B111",
+        "Qty": 100,
+        "UnitPrice": 3.0,
+        "Amount": 300.0,
+        "DeliveryNoteNo": "3138872"
+      }
+    ],
+    "TotalQty": 100,
+    "TotalAmount": 300.0,
+    "Tax": 0.0,
+    "PaymentTerm": "150DAYS",
+    "Beneficiary": {
+      "Name": "test2 ELECTRONIC CO.,LTD",
+      "Bank": "BANK OF test BRANCH",
+      "BankAddress": "test road",
+      "BankAccount": "000099998888",
+      "ContactPerson": "MISS test"
+    }
+  },
+  "prompt": "<s_invoice>"
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          

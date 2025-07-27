@@ -1,0 +1,19 @@
+{
+  "总标注数量": 245,
+  "标注分布": {
+    "O": 126,
+    "B-InvoiceNo": 14,
+    "B-AmountwithTax": 91,
+    "B-Currency": 14
+  },
+  "创建时间": "2025-07-25T10:00:30.655809",
+  "文件列表": {
+    "完整标注": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/annotation/all_annotations_20250725_100030.json",
+    "分类标注": {
+      "O": "O_annotations_20250725_100030.json",
+      "B-InvoiceNo": "B-InvoiceNo_annotations_20250725_100030.json",
+      "B-AmountwithTax": "B-AmountwithTax_annotations_20250725_100030.json",
+      "B-Currency": "B-Currency_annotations_20250725_100030.json"
+    }
+  }
+}

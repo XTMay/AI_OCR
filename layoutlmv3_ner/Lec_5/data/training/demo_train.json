@@ -5,4 +5,3673 @@
       {
         "text": "TE ST",
         "bbox": [
-          
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "TE ST",
+        "bbox": [
+          178,
+          124,
+          254,
+          139
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Test Co.,Ltd.",
+        "bbox": [
+          390,
+          125,
+          503,
+          140
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice",
+        "bbox": [
+          390,
+          159,
+          457,
+          173
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Vendor code: XX84O-SXX",
+        "bbox": [
+          149,
+          192,
+          369,
+          209
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bill To: test1 Corporation",
+        "bbox": [
+          149,
+          228,
+          366,
+          245
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Sold To:test1 Corporation",
+        "bbox": [
+          147,
+          295,
+          374,
+          313
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Invoice NO: Y 309824263008",
+        "bbox": [
+          592,
+          330,
+          844,
+          345
+        ],
+        "label": "B-InvoiceNo"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "ITEM",
+        "bbox": [
+          158,
+          363,
+          204,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "RO.NO",
+        "bbox": [
+          230,
+          363,
+          296,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "DESCRIPTION",
+        "bbox": [
+          313,
+          363,
+          440,
+          378
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "QTY",
+        "bbox": [
+          455,
+          364,
+          495,
+          380
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "UNIT PRICE",
+        "bbox": [
+          528,
+          364,
+          632,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "AMOUNT",
+        "bbox": [
+          653,
+          363,
+          737,
+          377
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "DELIVERY",
+        "bbox": [
+          751,
+          365,
+          840,
+          379
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          653,
+          384,
+          695,
+          399
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "PCS",
+        "bbox": [
+          455,
+          398,
+          497,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "USD",
+        "bbox": [
+          528,
+          399,
+          570,
+          414
+        ],
+        "label": "B-Currency"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "NOTE NO",
+        "bbox": [
+          751,
+          398,
+          837,
+          414
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "21423-",
+        "bbox": [
+          313,
+          454,
+          376,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          456,
+          454,
+          491,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "3.00000",
+        "bbox": [
+          527,
+          454,
+          601,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "300.00",
+        "bbox": [
+          652,
+          454,
+          715,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "3138872",
+        "bbox": [
+          750,
+          454,
+          829,
+          468
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "0651508111",
+        "bbox": [
+          313,
+          476,
+          424,
+          490
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "100",
+        "bbox": [
+          458,
+          586,
+          491,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "300",
+        "bbox": [
+          652,
+          586,
+          688,
+          599
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "PAYMENTTERM:",
+        "bbox": [
+          150,
+          609,
+          301,
+          623
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "BANKINFORMATION:",
+        "bbox": [
+          150,
+          643,
+          347,
+          657
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+        "bbox": [
+          150,
+          676,
+          540,
+          694
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "LTD",
+        "bbox": [
+          540,
+          676,
+          576,
+          692
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Name of beneficiary bank: BANK OF test BRANCH",
+        "bbox": [
+          149,
+          709,
+          584,
+          728
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "TEST",
+        "bbox": [
+          726,
+          712,
+          801,
+          727
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Address of beneficiary bank: test road",
+        "bbox": [
+          149,
+          744,
+          479,
+          763
+        ],
+        "label": "O"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Bankaccount number: 000099998888",
+        "bbox": [
+          149,
+          779,
+          484,
+          795
+        ],
+        "label": "B-AmountwithTax"
+      }
+    ]
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "entities": [
+      {
+        "text": "Contact person: MISS test",
+        "bbox": [
+          148,
+          813,
+          380,
+          831
+        ],
+        "label": "O"
+      }
+    ]
+  }
+]

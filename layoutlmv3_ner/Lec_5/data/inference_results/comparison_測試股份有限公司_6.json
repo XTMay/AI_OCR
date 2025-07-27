@@ -1,0 +1,56 @@
+{
+  "pdf_file": "測試股份有限公司_6",
+  "inference_results": {
+    "InvoiceNo": "",
+    "InvoiceDate": "",
+    "Currency": "",
+    "Amount with Tax": "",
+    "Amount without Tax": "",
+    "Tax": ""
+  },
+  "ground_truth": {
+    "InvoiceNo": "Y 309824263008",
+    "InvoiceDate": "2025年6月30日",
+    "Currency": "USD",
+    "Amount with Tax": "300",
+    "Amount without Tax": "300",
+    "Tax": "0"
+  },
+  "field_comparison": {
+    "InvoiceNo": {
+      "predicted": "",
+      "ground_truth": "Y 309824263008",
+      "correct": false
+    },
+    "InvoiceDate": {
+      "predicted": "",
+      "ground_truth": "2025年6月30日",
+      "correct": false
+    },
+    "Currency": {
+      "predicted": "",
+      "ground_truth": "USD",
+      "correct": false
+    },
+    "Amount with Tax": {
+      "predicted": "",
+      "ground_truth": "300",
+      "correct": false
+    },
+    "Amount without Tax": {
+      "predicted": "",
+      "ground_truth": "300",
+      "correct": false
+    },
+    "Tax": {
+      "predicted": "",
+      "ground_truth": "0",
+      "correct": false
+    }
+  },
+  "accuracy_metrics": {
+    "correct_fields": 0,
+    "total_fields": 6,
+    "accuracy": 0.0
+  }
+}

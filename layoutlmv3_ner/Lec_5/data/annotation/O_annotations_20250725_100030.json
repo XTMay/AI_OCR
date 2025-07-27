@@ -1,0 +1,1514 @@
+[
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "TE ST",
+    "label": "O",
+    "bbox": [
+      178.0,
+      124.0,
+      254.0,
+      139.0
+    ],
+    "confidence": 0.5154991771664386
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Test Co.,Ltd.",
+    "label": "O",
+    "bbox": [
+      390.0,
+      125.0,
+      503.0,
+      140.0
+    ],
+    "confidence": 0.5502803771248767
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "ITEM",
+    "label": "O",
+    "bbox": [
+      158.0,
+      363.0,
+      204.0,
+      378.0
+    ],
+    "confidence": 0.9177569871975261
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "RO.NO",
+    "label": "O",
+    "bbox": [
+      230.0,
+      363.0,
+      296.0,
+      378.0
+    ],
+    "confidence": 0.8933765179570787
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "DESCRIPTION",
+    "label": "O",
+    "bbox": [
+      313.0,
+      363.0,
+      440.0,
+      378.0
+    ],
+    "confidence": 0.9979148837025474
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "QTY",
+    "label": "O",
+    "bbox": [
+      455.0,
+      364.0,
+      495.0,
+      380.0
+    ],
+    "confidence": 0.9961909992298104
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "UNIT PRICE",
+    "label": "O",
+    "bbox": [
+      528.0,
+      364.0,
+      632.0,
+      379.0
+    ],
+    "confidence": 0.9067294833223402
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "AMOUNT",
+    "label": "O",
+    "bbox": [
+      653.0,
+      363.0,
+      737.0,
+      377.0
+    ],
+    "confidence": 0.9988659145939168
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "DELIVERY",
+    "label": "O",
+    "bbox": [
+      751.0,
+      365.0,
+      840.0,
+      379.0
+    ],
+    "confidence": 0.9990193808150133
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "PCS",
+    "label": "O",
+    "bbox": [
+      455.0,
+      398.0,
+      497.0,
+      414.0
+    ],
+    "confidence": 0.9924077379528473
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "NOTE NO",
+    "label": "O",
+    "bbox": [
+      751.0,
+      398.0,
+      837.0,
+      414.0
+    ],
+    "confidence": 0.7294517229745626
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "PAYMENTTERM:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      609.0,
+      301.0,
+      623.0
+    ],
+    "confidence": 0.8440684897937765
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "BANKINFORMATION:",
+    "label": "O",
+    "bbox": [
+      150.0,
+      643.0,
+      347.0,
+      657.0
+    ],
+    "confidence": 0.9988939307610926
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "LTD",
+    "label": "O",
+    "bbox": [
+      540.0,
+      676.0,
+      576.0,
+      692.0
+    ],
+    "confidence": 0.9961103773942285
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Name of beneficiary bank: BANK OF test BRANCH",
+    "label": "O",
+    "bbox": [
+      149.0,
+      709.0,
+      584.0,
+      728.0
+    ],
+    "confidence": 0.6562626495985546
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "TEST",
+    "label": "O",
+    "bbox": [
+      726.0,
+      712.0,
+      801.0,
+      727.0
+    ],
+    "confidence": 0.7995374798774719
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Address of beneficiary bank: test road",
+    "label": "O",
+    "bbox": [
+      149.0,
+      744.0,
+      479.0,
+      763.0
+    ],
+    "confidence": 0.5415833778676498
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Contact person: MISS test",
+    "label": "O",
+    "bbox": [
+      148.0,
+      813.0,
+      380.0,
+      831.0
+    ],
+    "confidence": 0.9703535720199216
+  }
+]

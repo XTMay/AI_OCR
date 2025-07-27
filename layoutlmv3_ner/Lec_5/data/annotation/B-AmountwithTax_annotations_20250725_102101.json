@@ -1,0 +1,1094 @@
+[
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_1_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_2_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_3_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_4_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_5_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_6_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Vendor code: XX84O-SXX",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      192.0,
+      369.0,
+      209.0
+    ],
+    "confidence": 0.8269235364759687
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Bill To: test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      228.0,
+      366.0,
+      245.0
+    ],
+    "confidence": 0.883193323882225
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Sold To:test1 Corporation",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      147.0,
+      295.0,
+      374.0,
+      313.0
+    ],
+    "confidence": 0.7072211338630663
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "21423-",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      454.0,
+      376.0,
+      468.0
+    ],
+    "confidence": 0.98835261763241
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      456.0,
+      454.0,
+      491.0,
+      468.0
+    ],
+    "confidence": 0.999960081307807
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "3.00000",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      527.0,
+      454.0,
+      601.0,
+      468.0
+    ],
+    "confidence": 0.9999672885350579
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "300.00",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      454.0,
+      715.0,
+      468.0
+    ],
+    "confidence": 0.7257043360175238
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "3138872",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      750.0,
+      454.0,
+      829.0,
+      468.0
+    ],
+    "confidence": 0.9999755340195329
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "0651508111",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      313.0,
+      476.0,
+      424.0,
+      490.0
+    ],
+    "confidence": 0.7262475992889745
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "100",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      458.0,
+      586.0,
+      491.0,
+      599.0
+    ],
+    "confidence": 0.9999568465265839
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "300",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      652.0,
+      586.0,
+      688.0,
+      599.0
+    ],
+    "confidence": 0.9999592554060849
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Name of beneficiary: test2 ELECTRONIC CO.",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      150.0,
+      676.0,
+      540.0,
+      694.0
+    ],
+    "confidence": 0.777409195482475
+  },
+  {
+    "image_path": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/images/測試股份有限公司_7_page_1.jpg",
+    "text": "Bankaccount number: 000099998888",
+    "label": "B-AmountwithTax",
+    "bbox": [
+      149.0,
+      779.0,
+      484.0,
+      795.0
+    ],
+    "confidence": 0.9316259920084264
+  }
+]

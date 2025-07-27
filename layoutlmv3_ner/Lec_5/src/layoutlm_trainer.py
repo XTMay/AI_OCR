@@ -79,7 +79,7 @@ class InvoiceLayoutDataset(Dataset):
         return {
             'input_ids': encoding['input_ids'].flatten(),
             'attention_mask': encoding['attention_mask'].flatten(),
-            'bbox': encoding['bbox'].flatten(),
+            'bbox': encoding['bbox'].squeeze(0),  # Remove batch dimension but keep [seq_len, 4] shape
             'labels': encoding['labels'].flatten(),
             'pixel_values': encoding.get('pixel_values', torch.zeros(3, 224, 224))
         }
@@ -88,14 +88,26 @@ class LayoutLMv3Trainer:
     """LayoutLMv3训练器"""
     
     def __init__(self, model_name: str = 'microsoft/layoutlmv3-base'):
+        self.model_name = model_name
         self.tokenizer = LayoutLMv3Tokenizer.from_pretrained(model_name)
         self.model = LayoutLMv3ForTokenClassification.from_pretrained(
             model_name,
             num_labels=13  # 根据标签数量调整
         )
         
+        # Also load the processor for complete model saving
+        try:
+            from transformers import LayoutLMv3Processor
+            self.processor = LayoutLMv3Processor.from_pretrained(model_name)
+        except Exception as e:
+            logging.warning(f"Could not load processor: {e}, will use tokenizer only")
+        
     def setup_training(self, train_dataset, val_dataset, output_dir: str, num_epochs: int = 15):
         """设置训练参数"""
+        # 检测设备类型，决定是否使用fp16
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        use_fp16 = torch.cuda.is_available()  # 只在CUDA设备上使用fp16
+        
         training_args = TrainingArguments(
             output_dir=output_dir,
             num_train_epochs=num_epochs,
@@ -105,7 +117,7 @@ class LayoutLMv3Trainer:
             weight_decay=0.01,
             logging_dir=f'{output_dir}/logs',
             logging_steps=50,
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",  # 修改：从 evaluation_strategy 改为 eval_strategy
             save_strategy="epoch",
             load_best_model_at_end=True,
             metric_for_best_model="eval_f1",
@@ -114,7 +126,7 @@ class LayoutLMv3Trainer:
             learning_rate=3e-5,  # LayoutLMv3推荐学习率
             lr_scheduler_type="cosine",
             dataloader_num_workers=2,
-            fp16=True,  # 混合精度训练
+            fp16=use_fp16,  # 只在CUDA设备上使用混合精度训练
             gradient_accumulation_steps=4,  # 梯度累积
             report_to=None  # 禁用wandb等
         )
@@ -158,7 +170,38 @@ class LayoutLMv3Trainer:
         self.trainer.train()
     
     def save_model(self, save_path: str):
-        """保存模型"""
+        """保存模型及所有相关组件"""
+        import os
+        os.makedirs(save_path, exist_ok=True)
+        
+        # Save model and tokenizer
         self.model.save_pretrained(save_path)
         self.tokenizer.save_pretrained(save_path)
-        logging.info(f"模型已保存到: {save_path}")
+        
+        # Save processor if available
+        if hasattr(self, 'processor'):
+            try:
+                self.processor.save_pretrained(save_path)
+                logging.info(f"✅ 模型、tokenizer和processor已保存到: {save_path}")
+            except Exception as e:
+                logging.warning(f"⚠️ 无法保存processor: {e}")
+                logging.info(f"✅ 模型和tokenizer已保存到: {save_path}")
+        else:
+            # If no processor, create a minimal preprocessor_config.json
+            import json
+            preprocessor_config = {
+                "do_resize": True,
+                "size": {"height": 224, "width": 224},
+                "do_normalize": True,
+                "image_mean": [0.485, 0.456, 0.406],
+                "image_std": [0.229, 0.224, 0.225],
+                "apply_ocr": False,
+                "ocr_lang": None,
+                "processor_class": "LayoutLMv3Processor"
+            }
+            
+            config_path = os.path.join(save_path, "preprocessor_config.json")
+            with open(config_path, 'w') as f:
+                json.dump(preprocessor_config, f, indent=2)
+            
+            logging.info(f"✅ 模型、tokenizer和preprocessor_config已保存到: {save_path}")

@@ -36,9 +36,9 @@ class InvoiceOCRTutorial:
         pdf_files = []
         label_files = []
         
-        for i in range(1, 12):  # 1到11
+        for i in range(1, 8):  # 1到7
             pdf_path = f"{base_dir}/data/raw/測試股份有限公司_{i}.pdf"
-            label_path = f"{base_dir}/data/validation/label_{i}.json"
+            label_path = f"{base_dir}/data/training/label_{i}.json"
             
             pdf_files.append(pdf_path)
             label_files.append(label_path)
@@ -234,22 +234,42 @@ class InvoiceOCRTutorial:
             # 保存完整的标注数据
             annotations_file = os.path.join(annotations_dir, f"all_annotations_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
             
-            # 转换numpy类型为Python原生类型以便JSON序列化
+            # 转换数据为可序列化格式
             serializable_annotations = []
             for ann in annotations:
-                serializable_ann = {
-                    'image_path': str(ann['image_path']),
-                    'text': str(ann['text']),
-                    'label': str(ann['label']),
-                    'bbox': ann['bbox'].tolist() if hasattr(ann['bbox'], 'tolist') else list(ann['bbox']),
-                    'confidence': float(ann.get('confidence', 1.0))
-                }
-                serializable_annotations.append(serializable_ann)
+                try:
+                    # 安全处理bbox数据
+                    bbox = ann['bbox']
+                    if isinstance(bbox, (list, tuple)):
+                        # 确保bbox中的所有值都是有效的数字
+                        safe_bbox = []
+                        for coord in bbox:
+                            if isinstance(coord, (int, float)) and not (coord == float('inf') or coord == float('-inf') or coord != coord):  # 检查nan
+                                safe_bbox.append(float(coord))
+                            else:
+                                safe_bbox.append(0.0)  # 使用默认值替换无效坐标
+                    else:
+                        safe_bbox = [0.0, 0.0, 100.0, 20.0]  # 默认bbox
+                    
+                    serializable_ann = {
+                        'image_path': str(ann['image_path']),
+                        'text': str(ann['text']),
+                        'label': str(ann['label']),
+                        'bbox': safe_bbox,
+                        'confidence': float(ann.get('confidence', 1.0))
+                    }
+                    serializable_annotations.append(serializable_ann)
+                    
+                except Exception as e:
+                    self.logger.warning(f"  ⚠️ 跳过无效标注: {e}")
+                    continue
             
+            # 保存JSON文件
             with open(annotations_file, 'w', encoding='utf-8') as f:
                 json.dump(serializable_annotations, f, ensure_ascii=False, indent=2)
             
             self.logger.info(f"  💾 标注结果已保存到: {annotations_file}")
+            self.logger.info(f"  📊 成功保存 {len(serializable_annotations)} 个标注")
             
             # 按标签分类保存
             label_groups = {}
@@ -362,10 +382,14 @@ class InvoiceOCRTutorial:
         
         try:
             # 初始化推理管道
-            inference_pipeline = InvoiceInferencePipeline(model_path, self.config["data_dir"])
+            inference_pipeline = InvoiceInferencePipeline(model_path)
             
             total_accuracy = 0
             successful_inferences = 0
+            
+            # 创建推理结果保存目录
+            inference_results_dir = "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/inference_results"
+            os.makedirs(inference_results_dir, exist_ok=True)
             
             # 处理所有发票
             for i, (pdf_path, label_path) in enumerate(zip(self.config["pdf_files"], self.config["label_files"]), 1):
@@ -373,14 +397,30 @@ class InvoiceOCRTutorial:
                 
                 try:
                     # 推理
-                    result = inference_pipeline.process_invoice(pdf_path)
+                    invoice_info = inference_pipeline.process_invoice(pdf_path)
                     
-                    if result.get("success"):
-                        invoice_info = result["invoice_info"]
-                        
+                    # 保存推理结果到JSON文件
+                    pdf_name = os.path.basename(pdf_path).replace('.pdf', '')
+                    inference_result_file = os.path.join(inference_results_dir, f"inference_{pdf_name}.json")
+                    
+                    with open(inference_result_file, 'w', encoding='utf-8') as f:
+                        json.dump(invoice_info, f, ensure_ascii=False, indent=2)
+                    
+                    self.logger.info(f"    💾 推理结果已保存到: {inference_result_file}")
+                    
+                    if invoice_info and isinstance(invoice_info, dict):
                         # 加载ground truth
                         with open(label_path, 'r', encoding='utf-8') as f:
                             ground_truth = json.load(f)
+                        
+                        # 创建对比结果
+                        comparison_result = {
+                            "pdf_file": pdf_name,
+                            "inference_results": invoice_info,
+                            "ground_truth": ground_truth,
+                            "field_comparison": {},
+                            "accuracy_metrics": {}
+                        }
                         
                         # 计算准确性
                         correct_fields = 0
@@ -388,17 +428,50 @@ class InvoiceOCRTutorial:
                         
                         for field, true_value in ground_truth.items():
                             pred_value = invoice_info.get(field, "")
-                            if str(pred_value).strip() == str(true_value).strip():
+                            is_correct = str(pred_value).strip() == str(true_value).strip()
+                            
+                            comparison_result["field_comparison"][field] = {
+                                "predicted": str(pred_value).strip(),
+                                "ground_truth": str(true_value).strip(),
+                                "correct": is_correct
+                            }
+                            
+                            if is_correct:
                                 correct_fields += 1
                         
                         accuracy = correct_fields / total_fields if total_fields > 0 else 0
+                        comparison_result["accuracy_metrics"] = {
+                            "correct_fields": correct_fields,
+                            "total_fields": total_fields,
+                            "accuracy": accuracy
+                        }
+                        
+                        # 保存对比结果
+                        comparison_file = os.path.join(inference_results_dir, f"comparison_{pdf_name}.json")
+                        with open(comparison_file, 'w', encoding='utf-8') as f:
+                            json.dump(comparison_result, f, ensure_ascii=False, indent=2)
+                        
+                        self.logger.info(f"    📊 对比结果已保存到: {comparison_file}")
+                        
                         total_accuracy += accuracy
                         successful_inferences += 1
                         
                         self.logger.info(f"    ✅ 推理成功，准确率: {accuracy:.2%} ({correct_fields}/{total_fields})")
                         
                     else:
-                        self.logger.error(f"    ❌ 推理失败: {result.get('error')}")
+                        self.logger.error(f"    ❌ 推理失败: {invoice_info}")
+                        
+                        # 保存失败结果
+                        failure_result = {
+                            "pdf_file": pdf_name,
+                            "status": "failed",
+                            "result": invoice_info,
+                            "error": "推理返回了无效结果"
+                        }
+                        
+                        failure_file = os.path.join(inference_results_dir, f"failure_{pdf_name}.json")
+                        with open(failure_file, 'w', encoding='utf-8') as f:
+                            json.dump(failure_result, f, ensure_ascii=False, indent=2)
                         
                 except Exception as e:
                     self.logger.error(f"    ❌ 处理失败: {e}")
@@ -406,7 +479,42 @@ class InvoiceOCRTutorial:
             # 计算平均准确率
             if successful_inferences > 0:
                 avg_accuracy = total_accuracy / successful_inferences
-                self.logger.info(f"\n  🎯 平均准确率: {avg_accuracy:.2%} (成功处理 {successful_inferences}/11 个文件)")
+                self.logger.info(f"\n  🎯 平均准确率: {avg_accuracy:.2%} (成功处理 {successful_inferences}/7 个文件)")
+                
+                # 创建总结报告
+                summary_report = {
+                    "inference_summary": {
+                        "total_files": len(self.config["pdf_files"]),
+                        "successful_inferences": successful_inferences,
+                        "failed_inferences": len(self.config["pdf_files"]) - successful_inferences,
+                        "average_accuracy": avg_accuracy,
+                        "total_accuracy": total_accuracy
+                    },
+                    "file_details": [],
+                    "inference_results_directory": inference_results_dir,
+                    "ground_truth_directory": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/training",
+                    "timestamp": datetime.now().isoformat()
+                }
+                
+                # 添加每个文件的详细信息
+                for i, (pdf_path, label_path) in enumerate(zip(self.config["pdf_files"], self.config["label_files"]), 1):
+                    pdf_name = os.path.basename(pdf_path).replace('.pdf', '')
+                    summary_report["file_details"].append({
+                        "file_number": i,
+                        "pdf_file": pdf_name,
+                        "inference_result_file": f"inference_{pdf_name}.json",
+                        "comparison_file": f"comparison_{pdf_name}.json",
+                        "ground_truth_file": os.path.basename(label_path)
+                    })
+                
+                # 保存总结报告
+                summary_file = os.path.join(inference_results_dir, "inference_summary_report.json")
+                with open(summary_file, 'w', encoding='utf-8') as f:
+                    json.dump(summary_report, f, ensure_ascii=False, indent=2)
+                
+                self.logger.info(f"  📋 总结报告已保存到: {summary_file}")
+                self.logger.info(f"  📁 所有推理结果保存在: {inference_results_dir}")
+                
             else:
                 self.logger.warning("  ⚠️ 没有成功的推理结果")
                 

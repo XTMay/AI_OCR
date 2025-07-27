@@ -1,0 +1,32 @@
+[
+  {
+    "text": "TE ST",
+    "bbox": [
+      71,
+      35,
+      102,
+      39
+    ],
+    "confidence": 0.51
+  },
+  {
+    "text": "Test Co.,Ltd.",
+    "bbox": [
+      157,
+      35,
+      202,
+      39
+    ],
+    "confidence": 0.55
+  },
+  {
+    "text": "Invoice",
+    "bbox": [
+      157,
+      45,
+      184,
+      49
+    ],
+    "confidence": 0.98
+  }
+]

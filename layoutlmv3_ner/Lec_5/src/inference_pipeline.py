@@ -104,32 +104,56 @@ class InvoiceInferencePipeline:
     def _process_single_image(self, image_path: str) -> List[Dict[str, Any]]:
         """处理单个图像"""
         try:
-            # 1. OCR提取文本和位置
-            ocr_results = self._extract_text_with_positions(image_path)
+            # 检查处理器配置
+            processor_config = getattr(self.processor, 'image_processor', None)
+            apply_ocr = getattr(processor_config, 'apply_ocr', False) if processor_config else False
             
-            if not ocr_results:
-                return []
-            
-            # 2. 准备LayoutLMv3输入
+            # 准备图像
             image = Image.open(image_path).convert('RGB')
-            words = [item['text'] for item in ocr_results]
-            boxes = [self._normalize_box(item['bbox'], image.size) for item in ocr_results]
             
-            # 3. 模型推理
-            predictions = self._run_inference(image, words, boxes)
-            
-            # 4. 组合结果
-            results = []
-            for i, (word, box, pred_label) in enumerate(zip(words, boxes, predictions)):
-                if pred_label != 'O':  # 只保留有标签的预测
-                    results.append({
-                        'text': word,
-                        'bbox': box,
-                        'label': pred_label,
-                        'confidence': ocr_results[i]['confidence']
-                    })
-            
-            return results
+            if apply_ocr:
+                # 使用内置OCR的情况
+                # 直接用图像进行推理，处理器会内部处理OCR
+                predictions = self._run_inference(image, [], [])
+                
+                # 由于没有外部OCR结果，返回简化的结果
+                results = []
+                for i, pred_label in enumerate(predictions):
+                    if pred_label != 'O':
+                        results.append({
+                            'text': f'token_{i}',  # 占位符文本
+                            'bbox': [0, 0, 100, 20],  # 占位符边界框
+                            'label': pred_label,
+                            'confidence': 1.0
+                        })
+                return results
+            else:
+                # 使用外部OCR的情况
+                # 1. OCR提取文本和位置
+                ocr_results = self._extract_text_with_positions(image_path)
+                
+                if not ocr_results:
+                    return []
+                
+                # 2. 准备LayoutLMv3输入
+                words = [item['text'] for item in ocr_results]
+                boxes = [self._normalize_box(item['bbox'], image.size) for item in ocr_results]
+                
+                # 3. 模型推理
+                predictions = self._run_inference(image, words, boxes)
+                
+                # 4. 组合结果
+                results = []
+                for i, (word, box, pred_label) in enumerate(zip(words, boxes, predictions)):
+                    if pred_label != 'O':  # 只保留有标签的预测
+                        results.append({
+                            'text': word,
+                            'bbox': box,
+                            'label': pred_label,
+                            'confidence': ocr_results[i]['confidence']
+                        })
+                
+                return results
             
         except Exception as e:
             self.logger.error(f"Image processing failed for {image_path}: {str(e)}")
@@ -138,26 +162,23 @@ class InvoiceInferencePipeline:
     def _extract_text_with_positions(self, image_path: str) -> List[Dict[str, Any]]:
         """使用OCR提取文本和位置"""
         try:
-            result = self.ocr.ocr(image_path, cls=True)
+            result = self.ocr.readtext(image_path)
             
             extracted_data = []
-            for line in result[0] if result and result[0] else []:
-                if len(line) >= 2:
+            for line in result if result else []:
+                if len(line) >= 3:
                     bbox = line[0]
-                    text_info = line[1]
+                    text = line[1]
+                    confidence = line[2]
                     
-                    if len(text_info) >= 2:
-                        text = text_info[0]
-                        confidence = text_info[1]
-                        
-                        # 标准化边界框
-                        normalized_bbox = self._normalize_bbox(bbox)
-                        
-                        extracted_data.append({
-                            'text': text,
-                            'bbox': normalized_bbox,
-                            'confidence': confidence
-                        })
+                    # 标准化边界框
+                    normalized_bbox = self._normalize_bbox(bbox)
+                    
+                    extracted_data.append({
+                        'text': text,
+                        'bbox': normalized_bbox,
+                        'confidence': confidence
+                    })
             
             return extracted_data
             
@@ -190,16 +211,31 @@ class InvoiceInferencePipeline:
     def _run_inference(self, image: Image.Image, words: List[str], boxes: List[List[int]]) -> List[str]:
         """运行LayoutLMv3推理"""
         try:
-            # 准备输入
-            encoding = self.processor(
-                image,
-                words,
-                boxes=boxes,
-                return_tensors="pt",
-                padding="max_length",
-                truncation=True,
-                max_length=512
-            )
+            # 检查处理器配置
+            processor_config = getattr(self.processor, 'image_processor', None)
+            apply_ocr = getattr(processor_config, 'apply_ocr', False) if processor_config else False
+            
+            # 根据配置决定如何调用处理器
+            if apply_ocr:
+                # 如果apply_ocr为True，不提供boxes参数
+                encoding = self.processor(
+                    image,
+                    return_tensors="pt",
+                    padding="max_length",
+                    truncation=True,
+                    max_length=512
+                )
+            else:
+                # 如果apply_ocr为False，提供words和boxes
+                encoding = self.processor(
+                    image,
+                    words,
+                    boxes=boxes,
+                    return_tensors="pt",
+                    padding="max_length",
+                    truncation=True,
+                    max_length=512
+                )
             
             # 移动到设备
             for key in encoding:
@@ -213,12 +249,21 @@ class InvoiceInferencePipeline:
             
             # 解码预测结果
             predicted_labels = []
-            for i, pred_id in enumerate(predictions[0].cpu().numpy()):
-                if i < len(words):  # 确保不超出词汇范围
+            if apply_ocr:
+                # 当使用内置OCR时，返回所有预测结果
+                for pred_id in predictions[0].cpu().numpy():
                     label = self.id_to_label.get(pred_id, 'O')
                     predicted_labels.append(label)
+                # 过滤掉padding tokens和special tokens
+                predicted_labels = [label for label in predicted_labels if label != 'O'][:len(words)]
+            else:
+                # 当使用外部OCR时，按words长度返回
+                for i, pred_id in enumerate(predictions[0].cpu().numpy()):
+                    if i < len(words):
+                        label = self.id_to_label.get(pred_id, 'O')
+                        predicted_labels.append(label)
             
-            return predicted_labels[:len(words)]
+            return predicted_labels[:len(words)] if not apply_ocr else predicted_labels
             
         except Exception as e:
             self.logger.error(f"Inference failed: {str(e)}")

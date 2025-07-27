@@ -1,0 +1,63 @@
+{
+  "inference_summary": {
+    "total_files": 7,
+    "successful_inferences": 7,
+    "failed_inferences": 0,
+    "average_accuracy": 0.0,
+    "total_accuracy": 0.0
+  },
+  "file_details": [
+    {
+      "file_number": 1,
+      "pdf_file": "測試股份有限公司_1",
+      "inference_result_file": "inference_測試股份有限公司_1.json",
+      "comparison_file": "comparison_測試股份有限公司_1.json",
+      "ground_truth_file": "label_1.json"
+    },
+    {
+      "file_number": 2,
+      "pdf_file": "測試股份有限公司_2",
+      "inference_result_file": "inference_測試股份有限公司_2.json",
+      "comparison_file": "comparison_測試股份有限公司_2.json",
+      "ground_truth_file": "label_2.json"
+    },
+    {
+      "file_number": 3,
+      "pdf_file": "測試股份有限公司_3",
+      "inference_result_file": "inference_測試股份有限公司_3.json",
+      "comparison_file": "comparison_測試股份有限公司_3.json",
+      "ground_truth_file": "label_3.json"
+    },
+    {
+      "file_number": 4,
+      "pdf_file": "測試股份有限公司_4",
+      "inference_result_file": "inference_測試股份有限公司_4.json",
+      "comparison_file": "comparison_測試股份有限公司_4.json",
+      "ground_truth_file": "label_4.json"
+    },
+    {
+      "file_number": 5,
+      "pdf_file": "測試股份有限公司_5",
+      "inference_result_file": "inference_測試股份有限公司_5.json",
+      "comparison_file": "comparison_測試股份有限公司_5.json",
+      "ground_truth_file": "label_5.json"
+    },
+    {
+      "file_number": 6,
+      "pdf_file": "測試股份有限公司_6",
+      "inference_result_file": "inference_測試股份有限公司_6.json",
+      "comparison_file": "comparison_測試股份有限公司_6.json",
+      "ground_truth_file": "label_6.json"
+    },
+    {
+      "file_number": 7,
+      "pdf_file": "測試股份有限公司_7",
+      "inference_result_file": "inference_測試股份有限公司_7.json",
+      "comparison_file": "comparison_測試股份有限公司_7.json",
+      "ground_truth_file": "label_7.json"
+    }
+  ],
+  "inference_results_directory": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/inference_results",
+  "ground_truth_directory": "/Users/xiaotingzhou/Documents/Lectures/AI_OCR/layoutlmv3_ner/Lec_5/data/training",
+  "timestamp": "2025-07-25T14:38:06.642755"
+}

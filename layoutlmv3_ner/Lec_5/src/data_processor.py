@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import math
 import logging
 from typing import List, Dict, Tuple, Any
 from pdf2image import convert_from_path
@@ -96,30 +97,95 @@ class InvoiceDataProcessor:
     def extract_text_with_positions(self, image_path: str) -> List[Dict[str, Any]]:
         """使用EasyOCR提取文本和位置信息"""
         try:
+            import math
+            # 添加调试信息
+            self.logger.info(f"正在处理图像: {image_path}")
+            
+            # 获取图像尺寸用于坐标标准化
+            from PIL import Image
+            with Image.open(image_path) as img:
+                img_width, img_height = img.size
+            
             # EasyOCR返回格式: [([[x1, y1], [x2, y2], [x3, y3], [x4, y4]], text, confidence)]
             results = self.ocr.readtext(image_path)
             
-            extracted_data = []
-            for bbox, text, confidence in results:
-                if confidence > 0.5:  # 过滤低置信度结果
-                    # 转换bbox格式为[x1, y1, x2, y2]
-                    x_coords = [point[0] for point in bbox]
-                    y_coords = [point[1] for point in bbox]
-                    normalized_bbox = [
-                        min(x_coords), min(y_coords),
-                        max(x_coords), max(y_coords)
-                    ]
-                    
-                    extracted_data.append({
-                        'text': text.strip(),
-                        'bbox': normalized_bbox,
-                        'confidence': confidence
-                    })
+            # 添加调试信息
+            self.logger.info(f"OCR检测到 {len(results)} 个文本区域，图像尺寸: {img_width}x{img_height}")
             
+            extracted_data = []
+            for i, (bbox, text, confidence) in enumerate(results):
+                # 添加调试信息
+                self.logger.debug(f"处理文本 {i}: '{text}', 置信度: {confidence}, 原始bbox: {bbox}")
+                
+                if confidence > 0.5:  # 过滤低置信度结果
+                    # 关键修复：正确处理NumPy类型的坐标
+                    try:
+                        # 确保坐标转换为Python原生float类型
+                        x_coords = []
+                        y_coords = []
+                        
+                        for point in bbox:
+                            # 处理NumPy类型和Python原生类型
+                            x_val = float(point[0].item()) if hasattr(point[0], 'item') else float(point[0])
+                            y_val = float(point[1].item()) if hasattr(point[1], 'item') else float(point[1])
+                            
+                            # 检查是否为有效数值
+                            if not (math.isinf(x_val) or math.isnan(x_val)):
+                                x_coords.append(x_val)
+                            if not (math.isinf(y_val) or math.isnan(y_val)):
+                                y_coords.append(y_val)
+                        
+                        if len(x_coords) >= 2 and len(y_coords) >= 2:
+                            # 获取原始坐标
+                            min_x, max_x = min(x_coords), max(x_coords)
+                            min_y, max_y = min(y_coords), max(y_coords)
+                            
+                            # 确保图像尺寸不为0，避免除零错误
+                            if img_width > 0 and img_height > 0:
+                                # 计算归一化坐标并转换为整数
+                                norm_x1 = max(0, min(1000, int((min_x / img_width) * 1000)))
+                                norm_y1 = max(0, min(1000, int((min_y / img_height) * 1000)))
+                                norm_x2 = max(0, min(1000, int((max_x / img_width) * 1000)))
+                                norm_y2 = max(0, min(1000, int((max_y / img_height) * 1000)))
+                                
+                                # 确保x2 > x1, y2 > y1
+                                if norm_x2 <= norm_x1:
+                                    norm_x2 = min(1000, norm_x1 + 1)
+                                if norm_y2 <= norm_y1:
+                                    norm_y2 = min(1000, norm_y1 + 1)
+                                
+                                normalized_bbox = [norm_x1, norm_y1, norm_x2, norm_y2]
+                                
+                                # 添加详细调试信息 
+                                self.logger.info(f"🔧 原始坐标: [{min_x:.1f}, {min_y:.1f}, {max_x:.1f}, {max_y:.1f}] -> 归一化后: {normalized_bbox}")
+                                self.logger.info(f"🖼️ 图像尺寸: {img_width}x{img_height}")
+                                
+                                # 验证bbox是否有效
+                                if all(isinstance(coord, int) and 0 <= coord <= 1000 for coord in normalized_bbox):
+                                    extracted_data.append({
+                                        'text': text.strip(),
+                                        'bbox': normalized_bbox,
+                                        'confidence': confidence
+                                    })
+                                    self.logger.debug(f"✅ 成功添加文本: '{text}', bbox: {normalized_bbox}")
+                                else:
+                                    self.logger.warning(f"❌ 检测到无效bbox: {normalized_bbox}, 文本: '{text}'")
+                            else:
+                                self.logger.error(f"❌ 图像尺寸无效: {img_width}x{img_height}")
+                        else:
+                            self.logger.warning(f"❌ 坐标数量不足: x_coords={len(x_coords)}, y_coords={len(y_coords)}")
+                            
+                    except Exception as coord_error:
+                        self.logger.warning(f"❌ 坐标转换失败: {coord_error}, bbox: {bbox}")
+                        continue
+            
+            self.logger.info(f"✅ 成功提取 {len(extracted_data)} 个有效文本区域")
             return extracted_data
             
         except Exception as e:
-            self.logger.error(f"OCR提取失败: {e}")
+            self.logger.error(f"❌ OCR提取失败: {e}")
+            import traceback
+            self.logger.error(traceback.format_exc())
             return []
     
     def _normalize_bbox(self, bbox: List[List[float]]) -> List[float]:
@@ -204,10 +270,13 @@ class InvoiceDataProcessor:
                 if exact_match_label:
                     label = exact_match_label
                 
+                # 验证并修复bbox格式
+                validated_bbox = self._validate_bbox(bbox)
+                
                 annotation = {
                     'image_path': image_path,
                     'text': text,
-                    'bbox': bbox,
+                    'bbox': validated_bbox,
                     'label': label,
                     'confidence': confidence
                 }
@@ -216,6 +285,37 @@ class InvoiceDataProcessor:
         
         self.logger.info(f"Created {len(annotations)} training annotations")
         return annotations
+    
+    def _validate_bbox(self, bbox: List[float]) -> List[int]:
+        """验证并确保bbox坐标在0-1000范围内"""
+        try:
+            if not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+                self.logger.warning(f"Invalid bbox format: {bbox}, using default")
+                return [0, 0, 100, 20]
+            
+            # 转换为整数并确保在0-1000范围内
+            validated = []
+            for coord in bbox:
+                if isinstance(coord, (int, float)) and not (math.isinf(coord) or math.isnan(coord)):
+                    validated.append(max(0, min(1000, int(coord))))
+                else:
+                    self.logger.warning(f"Invalid coordinate: {coord}, using 0")
+                    validated.append(0)
+            
+            # 确保x2 > x1, y2 > y1
+            x1, y1, x2, y2 = validated
+            if x2 <= x1:
+                x2 = min(1000, x1 + 1)
+            if y2 <= y1:
+                y2 = min(1000, y1 + 1)
+            
+            result = [x1, y1, x2, y2]
+            self.logger.debug(f"Validated bbox: {bbox} -> {result}")
+            return result
+            
+        except Exception as e:
+            self.logger.warning(f"Bbox validation failed: {e}, using default")
+            return [0, 0, 100, 20]
     
     def _find_exact_match(self, text: str, label_data: Dict[str, str]) -> str:
         """查找精确匹配的标签"""

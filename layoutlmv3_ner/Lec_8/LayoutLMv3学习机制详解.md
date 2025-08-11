@@ -530,5 +530,3 @@ def batch_inference(model, document_batch):
     
     return outputs
 ```
-
-这个详细的学习机制解释展示了LayoutLMv3如何在预训练和微调阶段学习多模态特征，以及如何通过位置感知、视觉特征和上下文关系的融合来实现高效的文档理解。
